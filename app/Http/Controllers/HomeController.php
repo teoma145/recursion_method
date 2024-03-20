@@ -11,7 +11,4 @@ class HomeController extends Controller
         $activities = Activity::all();
         return view('home', ['activities' => $activities]);
     }
-
-
-
 }

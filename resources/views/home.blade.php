@@ -24,15 +24,10 @@
             <td>{{ $activity->updated_at }}</td>
             <td>
                 @if ($activity->allPreviousPadriWorked())
-
                     <a href="">Puoi lavorare su questa attività</a>
-
                 @else
-
                     Non puoi lavorare su questa attività perché ci sono attività precedenti non lavorate.
-
                 @endif
-
 
             </td>
         </tr>
